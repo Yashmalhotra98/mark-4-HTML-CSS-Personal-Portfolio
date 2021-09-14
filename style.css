@@ -16,6 +16,13 @@ hr {
 }
 
 
+/* Spaces */
+
+.margin-md {
+    margin: 2rem;
+}
+
+
 /* Margin 
  2rem -> Top & Bottom, 
 0 rem -> Left & Right */
@@ -101,6 +108,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
