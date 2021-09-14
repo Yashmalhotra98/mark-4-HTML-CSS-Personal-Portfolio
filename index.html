@@ -51,8 +51,8 @@
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
@@ -67,23 +67,23 @@
 
     <h3>unordered list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
-        <li>Item One</li>
-        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
     </ul>
 
     <h3>unordered Inline list</h3>
 
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item One</li>
-        <li>Inline Item One</li>
+    <ul class="list-item-inline">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>break</li>
@@ -93,19 +93,19 @@
 
     <h2>@nav</h2>
 
-    <nav>
+    <nav class="navigation container">
         <!--Links important for traversing inside the website 
     are listed, It's like a Navigation bar/ space with Links -->
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -114,24 +114,30 @@
 
     <h2>@header</h2>
 
-    <header>
-        <Center><img src="images/hero_image.svg" /></center>
+    <header class="hero">
+        <img class="hero-img" src="images/hero_image.svg" />
         <!--<img src ="https://pbs.twimg.com/profile_banners/1311566029/1584937993/1500x500" />-->
-        <h1>Heading inside hero(heading) </h1>
+        <h1 class="hero-heading">Yash Malhotra the <span class="heading-inverted">Web Developer</span> </h1>
+        <!--span is like an inline <div> tag -->
     </header>
 
     <hr>
 
     <h2>@section</h2>
 
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background.</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+        </div>
+
     </section>
 
-    <section>
-        <h3>off white section</h3>
+    <section class="section ow">
+        <div class="container container-center"></div>
+        <h1>off white section</h1>
         <p>This will have gray background.</p>
+        </div>
     </section>
     <hr>
 

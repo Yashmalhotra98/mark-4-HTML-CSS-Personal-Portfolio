@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 :root {
+    /*Always define colors here*/
     --primary-color: #2563EB;
+    --grayish: #4B5563;
+    --off-white: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
+/* Margin 
+ 2rem -> Top & Bottom, 
+0 rem -> Left & Right */
 
 
 /** container **/
@@ -47,3 +59,83 @@ body {
 
 
 /** look into BEM naming convention for CSS **/
+
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5 rem;
+}
+
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    /*We see here that inside navigation 
+    if there is a link class then we need the following formatting */
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--grayish);
+    font-weight: bold;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    /* Inside section if there is an h3 
+    then it becomes centre*/
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
