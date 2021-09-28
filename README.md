@@ -4,7 +4,7 @@ HTML &amp; CSS to make a personal developers portfolio
 
 Hey! Welcome to my portfolio.
 
-It's a simplistic portfolio website with all the assignments. It showcases my Level 0 journey from scratch with Tanay Pratap and Team NeoG through Youtube.
+It's a simplistic portfolio website with all the assignments. It showcases my Level 0 journey from scratch with Tanay Pratap and NeoGCamp Team through Youtube.
 
 For now, I know:
 
